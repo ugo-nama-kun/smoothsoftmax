@@ -1,4 +1,4 @@
-# Smooth Softmax 1D/2D
+# SmoothSoftmax: Softmax with Topology
 
 Usually the softmax function does not have a geometric constraint by definition. There are no "next" output units for individual output units.
 
@@ -12,7 +12,7 @@ Then. We might be interested whether there is a in-between regarding the continu
 
 The key insight is that the geometric constraint can be represented by the convolution with a fixed filter before inputting into the softmax operation.
 
-This sample code includes the example implementation to adding that constraint into the softmax.
+This sample code includes the example implementation to adding that topological constraint into the softmax.
 
 Maybe some related architectue exists, but I'll put this insight here for future use.
 
