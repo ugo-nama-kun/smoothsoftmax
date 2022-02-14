@@ -6,7 +6,7 @@ If in continuous outputs, Multivariate Gaussian (or Beta dist.) would be a good 
 
 However, in RL, we sometimes want to represent the continuous outputs by binning the continious output space、and we cannot introduce the "near-ness" of next bins in the policy. 
 
-Then. We might be interested where there is a in-between between the continuous action space and the discrete action space.
+Then. We might be interested whether there is a in-between regarding the continuous action space and the discrete action space.
 
 ### A Solution
 
