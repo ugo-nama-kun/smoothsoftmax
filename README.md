@@ -14,7 +14,7 @@ The key insight is that the geometric constraint can be represented by the convo
 
 This sample code includes the example implementation to adding that constraint into the softmax.
 
-Maybe some related architectue exists, but I'll put this insight here for future the usage.
+Maybe some related architectue exists, but I'll put this insight here for future use.
 
 #### Example outputs of 1D smooth-softmax
 ![Screen Shot 2022-02-14 at 15 26 31](https://user-images.githubusercontent.com/1684732/153815654-995628ac-0adf-4348-8965-78f040d9d10b.png)
