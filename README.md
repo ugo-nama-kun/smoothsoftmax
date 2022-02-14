@@ -1,6 +1,6 @@
 # Smooth Softmax 1D/2D
 
-Usually the softmax function does not have a geometric constraint by definition. There are no "next" output units for the output.
+Usually the softmax function does not have a geometric constraint by definition. There are no "next" output units for individual output units.
 
 If in continuous outputs, Multivariate Gaussian (or Beta dist.) would be a good starting point. We can intruduce the near-ness using the covairance matrix of the Gaussian.
 
